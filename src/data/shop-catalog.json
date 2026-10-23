@@ -1,0 +1,886 @@
+{
+  "sample": true,
+  "photo_folders": true,
+  "_note": "SAMPLE catalogue: names and prices are placeholders. Edit this file (no rebuild needed) to change what the shop sells, then set \"sample\" to false to hide the sample notice. Fields: price in naira; optional was (old price = Hot Deal), featured, new, img (a path like /assets/products/rice.jpg), e (emoji). A category with \"age18\": true asks buyers to confirm they are 18 or older. PHOTOS: set \"photo_folders\" to true, then add pictures named after each id: /assets/products/<product id>.jpg and /assets/categories/<category id>.jpg (see product-photos-checklist.csv). Anything without a picture keeps its emoji. A product or category can also have its own \"img\" address.",
+  "categories": [
+    {
+      "id": "alcohols",
+      "name": "Alcohols",
+      "e": "🍷",
+      "tint": "#f3e3ea",
+      "age18": true,
+      "img": "/assets/products/alcohols-1.jpg"
+    },
+    {
+      "id": "baby-care",
+      "name": "Baby Care",
+      "e": "🍼",
+      "tint": "#e3f0fb",
+      "img": "/assets/products/baby-care-1.jpg"
+    },
+    {
+      "id": "bath-soap",
+      "name": "Bath Soap",
+      "e": "🧼",
+      "tint": "#e6f4f1",
+      "img": "/assets/products/bath-soap-4.jpg"
+    },
+    {
+      "id": "body-care",
+      "name": "Body Care",
+      "e": "🧴",
+      "tint": "#fbeee3",
+      "img": "/assets/products/body-care-1.jpg"
+    },
+    {
+      "id": "cleaning",
+      "name": "Cleaning",
+      "e": "🧽",
+      "tint": "#e3eefb",
+      "img": "/assets/products/cleaning-2.jpg"
+    },
+    {
+      "id": "fragrance",
+      "name": "Fragrance",
+      "e": "🌸",
+      "tint": "#f7e6f3",
+      "img": "/assets/products/fragrance-1.jpg"
+    },
+    {
+      "id": "fruits",
+      "name": "Fruits",
+      "e": "🍎",
+      "tint": "#fde8e8",
+      "img": "/assets/products/fruits-1.jpg"
+    },
+    {
+      "id": "groceries",
+      "name": "Groceries",
+      "e": "🛒",
+      "tint": "#e8f5e3",
+      "img": "/assets/products/groceries-1.jpg"
+    },
+    {
+      "id": "hair-extension",
+      "name": "Hair & Extension",
+      "e": "💇‍♀️",
+      "tint": "#efe6f7",
+      "img": "/assets/products/hair-extension-3.jpg"
+    },
+    {
+      "id": "hair-care",
+      "name": "Hair Care",
+      "e": "💆",
+      "tint": "#f3ece3",
+      "img": "/assets/products/hair-care-1.jpg"
+    },
+    {
+      "id": "non-alcoholic",
+      "name": "Non-Alcoholic Drinks",
+      "e": "🥤",
+      "tint": "#e3f5fb",
+      "img": "/assets/products/non-alcoholic-3.jpg"
+    },
+    {
+      "id": "oral-care",
+      "name": "Oral Care",
+      "e": "🪥",
+      "tint": "#e3f1f5",
+      "img": "/assets/products/oral-care-3.jpg"
+    },
+    {
+      "id": "seasoning",
+      "name": "Seasoning",
+      "e": "🧂",
+      "tint": "#fbf3df",
+      "img": "/assets/products/seasoning-1.jpg"
+    },
+    {
+      "id": "skin-care",
+      "name": "Skin Care",
+      "e": "✨",
+      "tint": "#fdf0e6",
+      "img": "/assets/products/skin-care-1.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "alcohols-1",
+      "cat": "alcohols",
+      "name": "Red wine",
+      "size": "75cl",
+      "price": 8500,
+      "img": "/assets/products/alcohols-1.jpg"
+    },
+    {
+      "id": "alcohols-2",
+      "cat": "alcohols",
+      "name": "White wine",
+      "size": "75cl",
+      "price": 8000,
+      "img": "/assets/products/alcohols-2.jpg"
+    },
+    {
+      "id": "alcohols-3",
+      "cat": "alcohols",
+      "name": "Premium lager beer",
+      "size": "6 x 33cl",
+      "price": 5400,
+      "img": "/assets/products/alcohols-3.jpg"
+    },
+    {
+      "id": "alcohols-4",
+      "cat": "alcohols",
+      "name": "Vodka",
+      "size": "70cl",
+      "price": 12000,
+      "img": "/assets/products/alcohols-4.jpg"
+    },
+    {
+      "id": "alcohols-5",
+      "cat": "alcohols",
+      "name": "Whisky",
+      "size": "70cl",
+      "price": 22000,
+      "img": "/assets/products/alcohols-5.jpg"
+    },
+    {
+      "id": "alcohols-6",
+      "cat": "alcohols",
+      "name": "Gin",
+      "size": "75cl",
+      "price": 9500,
+      "img": "/assets/products/alcohols-6.jpg"
+    },
+    {
+      "id": "alcohols-7",
+      "cat": "alcohols",
+      "name": "Sparkling wine",
+      "size": "75cl",
+      "price": 15000,
+      "new": true,
+      "img": "/assets/products/alcohols-7.jpg"
+    },
+    {
+      "id": "baby-care-1",
+      "cat": "baby-care",
+      "name": "Baby diapers (size 3)",
+      "size": "40 pieces",
+      "price": 14500,
+      "featured": true,
+      "img": "/assets/products/baby-care-1.jpg"
+    },
+    {
+      "id": "baby-care-2",
+      "cat": "baby-care",
+      "name": "Baby wipes",
+      "size": "80 pieces",
+      "price": 2500,
+      "img": "/assets/products/baby-care-2.jpg"
+    },
+    {
+      "id": "baby-care-3",
+      "cat": "baby-care",
+      "name": "Baby lotion",
+      "size": "200ml",
+      "price": 3200,
+      "img": "/assets/products/baby-care-3.jpg"
+    },
+    {
+      "id": "baby-care-4",
+      "cat": "baby-care",
+      "name": "Baby powder",
+      "size": "200g",
+      "price": 2200,
+      "img": "/assets/products/baby-care-4.jpg"
+    },
+    {
+      "id": "baby-care-5",
+      "cat": "baby-care",
+      "name": "Baby shampoo",
+      "size": "200ml",
+      "price": 2800,
+      "img": "/assets/products/baby-care-5.jpg"
+    },
+    {
+      "id": "baby-care-6",
+      "cat": "baby-care",
+      "name": "Feeding bottle",
+      "size": "250ml",
+      "price": 3000,
+      "img": "/assets/products/baby-care-6.jpg"
+    },
+    {
+      "id": "baby-care-7",
+      "cat": "baby-care",
+      "name": "Infant formula",
+      "size": "400g",
+      "price": 9800,
+      "img": "/assets/products/baby-care-7.jpg"
+    },
+    {
+      "id": "bath-soap-1",
+      "cat": "bath-soap",
+      "name": "Antibacterial bath soap",
+      "size": "4 bars",
+      "price": 2800,
+      "img": "/assets/products/bath-soap-1.jpg"
+    },
+    {
+      "id": "bath-soap-2",
+      "cat": "bath-soap",
+      "name": "Moisturising soap bar",
+      "size": "150g",
+      "price": 900,
+      "img": "/assets/products/bath-soap-2.jpg"
+    },
+    {
+      "id": "bath-soap-3",
+      "cat": "bath-soap",
+      "name": "Shea butter soap",
+      "size": "200g",
+      "price": 1500,
+      "img": "/assets/products/bath-soap-3.jpg"
+    },
+    {
+      "id": "bath-soap-4",
+      "cat": "bath-soap",
+      "name": "Liquid body wash",
+      "size": "500ml",
+      "price": 4200,
+      "img": "/assets/products/bath-soap-4.jpg"
+    },
+    {
+      "id": "bath-soap-5",
+      "cat": "bath-soap",
+      "name": "African black soap",
+      "size": "250g",
+      "price": 1200,
+      "img": "/assets/products/bath-soap-5.jpg"
+    },
+    {
+      "id": "bath-soap-6",
+      "cat": "bath-soap",
+      "name": "Medicated soap",
+      "size": "100g",
+      "price": 800,
+      "img": "/assets/products/bath-soap-6.jpg"
+    },
+    {
+      "id": "body-care-1",
+      "cat": "body-care",
+      "name": "Body lotion",
+      "size": "400ml",
+      "price": 4500,
+      "was": 5200,
+      "featured": true,
+      "img": "/assets/products/body-care-1.jpg"
+    },
+    {
+      "id": "body-care-2",
+      "cat": "body-care",
+      "name": "Body butter",
+      "size": "250g",
+      "price": 5500,
+      "img": "/assets/products/body-care-2.jpg"
+    },
+    {
+      "id": "body-care-3",
+      "cat": "body-care",
+      "name": "Roll-on deodorant",
+      "size": "50ml",
+      "price": 1800,
+      "img": "/assets/products/body-care-3.jpg"
+    },
+    {
+      "id": "body-care-4",
+      "cat": "body-care",
+      "name": "Body spray",
+      "size": "150ml",
+      "price": 2600,
+      "img": "/assets/products/body-care-4.jpg"
+    },
+    {
+      "id": "body-care-5",
+      "cat": "body-care",
+      "name": "Shaving cream",
+      "size": "200ml",
+      "price": 2200,
+      "img": "/assets/products/body-care-5.jpg"
+    },
+    {
+      "id": "body-care-6",
+      "cat": "body-care",
+      "name": "Petroleum jelly",
+      "size": "250ml",
+      "price": 1900,
+      "img": "/assets/products/body-care-6.jpg"
+    },
+    {
+      "id": "cleaning-1",
+      "cat": "cleaning",
+      "name": "Dishwashing liquid",
+      "size": "750ml",
+      "price": 1800,
+      "featured": true,
+      "img": "/assets/products/cleaning-1.jpg"
+    },
+    {
+      "id": "cleaning-2",
+      "cat": "cleaning",
+      "name": "Laundry detergent",
+      "size": "2kg",
+      "price": 4800,
+      "was": 5500,
+      "img": "/assets/products/cleaning-2.jpg"
+    },
+    {
+      "id": "cleaning-3",
+      "cat": "cleaning",
+      "name": "Bleach",
+      "size": "1 litre",
+      "price": 1500,
+      "img": "/assets/products/cleaning-3.jpg"
+    },
+    {
+      "id": "cleaning-4",
+      "cat": "cleaning",
+      "name": "Floor cleaner",
+      "size": "1 litre",
+      "price": 2400,
+      "img": "/assets/products/cleaning-4.jpg"
+    },
+    {
+      "id": "cleaning-5",
+      "cat": "cleaning",
+      "name": "Toilet cleaner",
+      "size": "750ml",
+      "price": 1900,
+      "img": "/assets/products/cleaning-5.jpg"
+    },
+    {
+      "id": "cleaning-6",
+      "cat": "cleaning",
+      "name": "Scouring sponges",
+      "size": "3 pieces",
+      "price": 900,
+      "img": "/assets/products/cleaning-6.jpg"
+    },
+    {
+      "id": "cleaning-7",
+      "cat": "cleaning",
+      "name": "Fabric softener",
+      "size": "1 litre",
+      "price": 3200,
+      "img": "/assets/products/cleaning-7.jpg"
+    },
+    {
+      "id": "fragrance-1",
+      "cat": "fragrance",
+      "name": "Eau de parfum for women",
+      "size": "100ml",
+      "price": 18000,
+      "img": "/assets/products/fragrance-1.jpg"
+    },
+    {
+      "id": "fragrance-2",
+      "cat": "fragrance",
+      "name": "Eau de toilette for men",
+      "size": "100ml",
+      "price": 15500,
+      "img": "/assets/products/fragrance-2.jpg"
+    },
+    {
+      "id": "fragrance-3",
+      "cat": "fragrance",
+      "name": "Body mist",
+      "size": "200ml",
+      "price": 5200,
+      "img": "/assets/products/fragrance-3.jpg"
+    },
+    {
+      "id": "fragrance-4",
+      "cat": "fragrance",
+      "name": "Perfume oil",
+      "size": "10ml",
+      "price": 4500,
+      "img": "/assets/products/fragrance-4.jpg"
+    },
+    {
+      "id": "fragrance-5",
+      "cat": "fragrance",
+      "name": "Room air freshener",
+      "size": "300ml",
+      "price": 2200,
+      "img": "/assets/products/fragrance-5.jpg"
+    },
+    {
+      "id": "fragrance-6",
+      "cat": "fragrance",
+      "name": "Fragrance gift set",
+      "size": "3 pieces",
+      "price": 24000,
+      "new": true,
+      "img": "/assets/products/fragrance-6.jpg"
+    },
+    {
+      "id": "fruits-1",
+      "cat": "fruits",
+      "name": "Apples",
+      "size": "1kg",
+      "price": 3500,
+      "was": 4000,
+      "img": "/assets/products/fruits-1.jpg"
+    },
+    {
+      "id": "fruits-2",
+      "cat": "fruits",
+      "name": "Bananas",
+      "size": "1 bunch",
+      "price": 1500,
+      "featured": true,
+      "img": "/assets/products/fruits-2.jpg"
+    },
+    {
+      "id": "fruits-3",
+      "cat": "fruits",
+      "name": "Oranges",
+      "size": "1kg",
+      "price": 2000,
+      "img": "/assets/products/fruits-3.jpg"
+    },
+    {
+      "id": "fruits-4",
+      "cat": "fruits",
+      "name": "Watermelon",
+      "size": "1 whole",
+      "price": 4000,
+      "img": "/assets/products/fruits-4.jpg"
+    },
+    {
+      "id": "fruits-5",
+      "cat": "fruits",
+      "name": "Pineapple",
+      "size": "1 piece",
+      "price": 1800,
+      "img": "/assets/products/fruits-5.jpg"
+    },
+    {
+      "id": "fruits-6",
+      "cat": "fruits",
+      "name": "Mangoes",
+      "size": "1kg",
+      "price": 2500,
+      "new": true,
+      "img": "/assets/products/fruits-6.jpg"
+    },
+    {
+      "id": "fruits-7",
+      "cat": "fruits",
+      "name": "Grapes",
+      "size": "500g",
+      "price": 3800,
+      "img": "/assets/products/fruits-7.jpg"
+    },
+    {
+      "id": "groceries-1",
+      "cat": "groceries",
+      "name": "Long grain rice",
+      "size": "10kg",
+      "price": 22000,
+      "was": 25300,
+      "featured": true,
+      "img": "/assets/products/groceries-1.jpg"
+    },
+    {
+      "id": "groceries-2",
+      "cat": "groceries",
+      "name": "Vegetable oil",
+      "size": "3 litres",
+      "price": 9500,
+      "was": 10900,
+      "img": "/assets/products/groceries-2.jpg"
+    },
+    {
+      "id": "groceries-3",
+      "cat": "groceries",
+      "name": "Spaghetti",
+      "size": "500g",
+      "price": 1300,
+      "img": "/assets/products/groceries-3.jpg"
+    },
+    {
+      "id": "groceries-4",
+      "cat": "groceries",
+      "name": "Sugar",
+      "size": "1kg",
+      "price": 1800,
+      "img": "/assets/products/groceries-4.jpg"
+    },
+    {
+      "id": "groceries-5",
+      "cat": "groceries",
+      "name": "Tomato paste",
+      "size": "400g",
+      "price": 1200,
+      "img": "/assets/products/groceries-5.jpg"
+    },
+    {
+      "id": "groceries-6",
+      "cat": "groceries",
+      "name": "Evaporated milk",
+      "size": "400g",
+      "price": 1700,
+      "img": "/assets/products/groceries-6.jpg"
+    },
+    {
+      "id": "groceries-7",
+      "cat": "groceries",
+      "name": "Eggs",
+      "size": "crate of 30",
+      "price": 5500,
+      "featured": true,
+      "img": "/assets/products/groceries-7.jpg"
+    },
+    {
+      "id": "groceries-8",
+      "cat": "groceries",
+      "name": "Bread",
+      "size": "1 loaf",
+      "price": 1500,
+      "img": "/assets/products/groceries-8.jpg"
+    },
+    {
+      "id": "hair-extension-1",
+      "cat": "hair-extension",
+      "name": "Straight bundle hair",
+      "size": "20 inch",
+      "price": 45000,
+      "img": "/assets/products/hair-extension-1.jpg"
+    },
+    {
+      "id": "hair-extension-2",
+      "cat": "hair-extension",
+      "name": "Curly weave",
+      "size": "18 inch",
+      "price": 38000,
+      "img": "/assets/products/hair-extension-3.jpg"
+    },
+    {
+      "id": "hair-extension-3",
+      "cat": "hair-extension",
+      "name": "Braiding hair",
+      "size": "pack",
+      "price": 3500,
+      "img": "/assets/products/hair-extension-3.jpg"
+    },
+    {
+      "id": "hair-extension-4",
+      "cat": "hair-extension",
+      "name": "Lace closure",
+      "size": "4 x 4 inch",
+      "price": 25000,
+      "img": "/assets/products/hair-extension-4.jpg"
+    },
+    {
+      "id": "hair-extension-5",
+      "cat": "hair-extension",
+      "name": "Hair clips",
+      "size": "pack of 12",
+      "price": 1200,
+      "img": "/assets/products/hair-extension-5.jpg"
+    },
+    {
+      "id": "hair-extension-6",
+      "cat": "hair-extension",
+      "name": "Wig cap",
+      "size": "1 piece",
+      "price": 1500,
+      "img": "/assets/products/hair-extension-6.jpg"
+    },
+    {
+      "id": "hair-care-1",
+      "cat": "hair-care",
+      "name": "Shampoo",
+      "size": "400ml",
+      "price": 3800,
+      "was": 4400,
+      "img": "/assets/products/hair-care-1.jpg"
+    },
+    {
+      "id": "hair-care-2",
+      "cat": "hair-care",
+      "name": "Conditioner",
+      "size": "400ml",
+      "price": 3900,
+      "img": "/assets/products/hair-care-2.jpg"
+    },
+    {
+      "id": "hair-care-3",
+      "cat": "hair-care",
+      "name": "Hair growth oil",
+      "size": "200ml",
+      "price": 2800,
+      "img": "/assets/products/hair-care-3.jpg"
+    },
+    {
+      "id": "hair-care-4",
+      "cat": "hair-care",
+      "name": "Hair relaxer kit",
+      "size": "1 kit",
+      "price": 4500,
+      "img": "/assets/products/hair-care-4.jpg"
+    },
+    {
+      "id": "hair-care-5",
+      "cat": "hair-care",
+      "name": "Edge control",
+      "size": "100ml",
+      "price": 2200,
+      "img": "/assets/products/hair-care-5.jpg"
+    },
+    {
+      "id": "hair-care-6",
+      "cat": "hair-care",
+      "name": "Detangling brush",
+      "size": "1 piece",
+      "price": 1800,
+      "img": "/assets/products/hair-care-6.jpg"
+    },
+    {
+      "id": "hair-care-7",
+      "cat": "hair-care",
+      "name": "Satin bonnet",
+      "size": "1 piece",
+      "price": 2000,
+      "new": true,
+      "img": "/assets/products/hair-care-7.jpg"
+    },
+    {
+      "id": "non-alcoholic-1",
+      "cat": "non-alcoholic",
+      "name": "Bottled water",
+      "size": "12 x 75cl",
+      "price": 3600,
+      "was": 4100,
+      "img": "/assets/products/non-alcoholic-1.jpg"
+    },
+    {
+      "id": "non-alcoholic-2",
+      "cat": "non-alcoholic",
+      "name": "Orange juice",
+      "size": "1 litre",
+      "price": 2200,
+      "featured": true,
+      "img": "/assets/products/non-alcoholic-2.jpg"
+    },
+    {
+      "id": "non-alcoholic-3",
+      "cat": "non-alcoholic",
+      "name": "Malt drink",
+      "size": "6 x 33cl",
+      "price": 4800,
+      "img": "/assets/products/non-alcoholic-3.jpg"
+    },
+    {
+      "id": "non-alcoholic-4",
+      "cat": "non-alcoholic",
+      "name": "Cola drink",
+      "size": "12 x 50cl",
+      "price": 5400,
+      "img": "/assets/products/non-alcoholic-4.jpg"
+    },
+    {
+      "id": "non-alcoholic-5",
+      "cat": "non-alcoholic",
+      "name": "Energy drink",
+      "size": "33cl",
+      "price": 900,
+      "img": "/assets/products/non-alcoholic-5.jpg"
+    },
+    {
+      "id": "non-alcoholic-6",
+      "cat": "non-alcoholic",
+      "name": "Tea bags",
+      "size": "100 bags",
+      "price": 2600,
+      "img": "/assets/products/non-alcoholic-6.jpg"
+    },
+    {
+      "id": "non-alcoholic-7",
+      "cat": "non-alcoholic",
+      "name": "Chocolate drink powder",
+      "size": "400g",
+      "price": 4500,
+      "img": "/assets/products/non-alcoholic-7.jpg"
+    },
+    {
+      "id": "oral-care-1",
+      "cat": "oral-care",
+      "name": "Toothpaste",
+      "size": "120g",
+      "price": 1500,
+      "featured": true,
+      "img": "/assets/products/oral-care-1.jpg"
+    },
+    {
+      "id": "oral-care-2",
+      "cat": "oral-care",
+      "name": "Soft toothbrush",
+      "size": "1 piece",
+      "price": 700,
+      "img": "/assets/products/oral-care-2.jpg"
+    },
+    {
+      "id": "oral-care-3",
+      "cat": "oral-care",
+      "name": "Mouthwash",
+      "size": "500ml",
+      "price": 3200,
+      "img": "/assets/products/oral-care-3.jpg"
+    },
+    {
+      "id": "oral-care-4",
+      "cat": "oral-care",
+      "name": "Dental floss",
+      "size": "50m",
+      "price": 1200,
+      "img": "/assets/products/oral-care-4.jpg"
+    },
+    {
+      "id": "oral-care-5",
+      "cat": "oral-care",
+      "name": "Whitening toothpaste",
+      "size": "100g",
+      "price": 2400,
+      "img": "/assets/products/oral-care-5.jpg"
+    },
+    {
+      "id": "oral-care-6",
+      "cat": "oral-care",
+      "name": "Electric toothbrush",
+      "size": "1 piece",
+      "price": 18000,
+      "new": true,
+      "img": "/assets/products/oral-care-6.jpg"
+    },
+    {
+      "id": "seasoning-1",
+      "cat": "seasoning",
+      "name": "Seasoning cubes",
+      "size": "50 pieces",
+      "price": 2600,
+      "featured": true,
+      "img": "/assets/products/seasoning-1.jpg"
+    },
+    {
+      "id": "seasoning-2",
+      "cat": "seasoning",
+      "name": "Curry powder",
+      "size": "100g",
+      "price": 1000,
+      "img": "/assets/products/seasoning-2.jpg"
+    },
+    {
+      "id": "seasoning-3",
+      "cat": "seasoning",
+      "name": "Thyme",
+      "size": "50g",
+      "price": 900,
+      "img": "/assets/products/seasoning-3.jpg"
+    },
+    {
+      "id": "seasoning-4",
+      "cat": "seasoning",
+      "name": "Ground pepper",
+      "size": "200g",
+      "price": 1800,
+      "img": "/assets/products/seasoning-4.jpg"
+    },
+    {
+      "id": "seasoning-5",
+      "cat": "seasoning",
+      "name": "Iodised salt",
+      "size": "1kg",
+      "price": 700,
+      "img": "/assets/products/seasoning-5.jpg"
+    },
+    {
+      "id": "seasoning-6",
+      "cat": "seasoning",
+      "name": "Garlic powder",
+      "size": "100g",
+      "price": 1400,
+      "img": "/assets/products/seasoning-6.jpg"
+    },
+    {
+      "id": "seasoning-7",
+      "cat": "seasoning",
+      "name": "Jollof spice mix",
+      "size": "100g",
+      "price": 1600,
+      "new": true,
+      "img": "/assets/products/seasoning-7.jpg"
+    },
+    {
+      "id": "skin-care-1",
+      "cat": "skin-care",
+      "name": "Face wash",
+      "size": "150ml",
+      "price": 3200,
+      "was": 3700,
+      "img": "/assets/products/skin-care-1.jpg"
+    },
+    {
+      "id": "skin-care-2",
+      "cat": "skin-care",
+      "name": "Moisturiser SPF 30",
+      "size": "50ml",
+      "price": 6500,
+      "img": "/assets/products/skin-care-2.jpg"
+    },
+    {
+      "id": "skin-care-3",
+      "cat": "skin-care",
+      "name": "Sunscreen",
+      "size": "100ml",
+      "price": 5800,
+      "new": true,
+      "img": "/assets/products/skin-care-3.jpg"
+    },
+    {
+      "id": "skin-care-4",
+      "cat": "skin-care",
+      "name": "Face serum",
+      "size": "30ml",
+      "price": 8500,
+      "featured": true,
+      "img": "/assets/products/skin-care-4.jpg"
+    },
+    {
+      "id": "skin-care-5",
+      "cat": "skin-care",
+      "name": "Facial toner",
+      "size": "200ml",
+      "price": 4200,
+      "img": "/assets/products/skin-care-5.jpg"
+    },
+    {
+      "id": "skin-care-6",
+      "cat": "skin-care",
+      "name": "Lip balm",
+      "size": "1 piece",
+      "price": 1200,
+      "img": "/assets/products/skin-care-6.jpg"
+    },
+    {
+      "id": "skin-care-7",
+      "cat": "skin-care",
+      "name": "Sheet face masks",
+      "size": "5 pieces",
+      "price": 4000,
+      "new": true,
+      "img": "/assets/products/skin-care-7.jpg"
+    }
+  ]
+}
