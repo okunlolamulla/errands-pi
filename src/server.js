@@ -1,3 +1,6 @@
+import 'dotenv/config'; // must be first so the other modules see the environment
+const { default: app } = await import('./app.js');
+
 (async () => {
   try {
     const { default: app } = await import("./server.js");
