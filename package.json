@@ -5,12 +5,12 @@
   "type": "module",
   "engines": { "node": ">=18.18" },
   "scripts": {
-    "build": "echo No build step required",
-    "dev": "node --watch src/server.js",
-    "start": "node src/server.js",
-    "test": "node --test",
-    "create-admin": "node scripts/create-default-admin.js"
-  },
+  "build": "echo \"No build step required\"",
+  "dev": "node --watch src/server.js",
+  "start": "node src/hostinger.cjs",
+  "test": "node --test",
+  "create-admin": "node scripts/create-default-admin.js"
+},
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",
     "cors": "^2.8.5",
